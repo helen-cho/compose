@@ -1,0 +1,316 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <title>논커피라떼</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+    <style>
+        .hot {
+            margin:0px auto;
+            margin-top: 30px;
+            width:250px;
+            padding-top: 5px;
+            padding-left: 20px;
+            border-top:red 5px solid; 
+            color: gray;
+        }
+        .cold {
+            margin:0px auto;
+            margin-top: 50px;
+            width:250px;
+            padding-top: 5px;
+            padding-left: 20px;
+            border-top:blue 5px solid; 
+            color: gray;
+        }
+        h4 {
+            line-height: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page" id="main">
+        <div data-role="header" data-theme="e">
+            <a href="compose.html" rel="external" data-icon="back">Back</a>
+            <h1>논커피라떼</h1>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview">
+                <li><a href="#1-01">곡물라떼</a></li>
+                <li><a href="#1-02">고구마라떼</a></li>
+                <li><a href="#1-03">리얼초코라떼</a></li>
+                <li><a href="#1-04">그린티라떼</a></li>
+                <li><a href="#1-05">쿠키초코라떼</a></li>
+                <li><a href="#1-06">민트초코 오레오라떼</a></li>
+                <li><a href="#1-07">카라멜마끼아또</a></li>
+                <li><a href="#1-08">흑당밀크</a></li>
+                <li><a href="#1-09">밀크티</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-theme="e" data-position="fixed">
+            <h1>논커피라떼 레시피</h1>        
+        </div>
+    </div>
+    <!--곡물라떼-------------------------------------------------------------->
+    <div data-role="page" id="1-01">
+        <div data-role="header" data-theme="e">
+            <a href="#main" data-icon="back">Back</a>
+            <h1>곡물라떼</h1>
+        </div>
+        <div data-role="content">
+            <div class="hot">
+                <h4>스핌피쳐</h4>
+                <hr>
+                <h4>우유 : 300ml(g)</h4>
+                <h4>곡물파우더 : 4SP(60g)</h4>
+                <h4>설탕시럽 : 1.5P(15g)</h4>    
+                <h4 style="color:red">Mix후 스팀 ▶ Mix</h4>
+                <h4>토핑 : 아몬드 슬라이스(1g)</h4>
+            </div>
+            <div class="cold">
+                <h4>블랜더</h4>
+                <hr>
+                <h4>우유 : 250ml(g)</h4>
+                <h4>곡물파우더 : 4.5P(60g)</h4>
+                <h4>설탕시럽 : 1.5P(15g)</h4>
+                <hr>
+                <h4>Mix ①번</h4>
+                <h4>얼음 : 가득</h4>
+            </div>
+        </div>
+        <div data-role="footer" data-theme="e" data-position="fixed">
+            <h1>곡물라떼 레시피</h1>        
+        </div>
+    </div>
+    <!--고구마라떼-------------------------------------------------------------->
+    <div data-role="page" id="1-02">
+        <div data-role="header" data-theme="e">
+            <a href="#main" data-icon="back">Back</a>
+            <h1>고구마라떼</h1>
+        </div>
+        <div data-role="content">
+            <div class="hot">
+                <h4>스핌피쳐</h4>
+                <hr>
+                <h4>고구마 페이스트 : 한포(95g)</h4>
+                <h4>설탕시럽 : 2.5P(25g)</h4>
+                <h4>우유 : 250g</h4>    
+                <h4 style="color:red">Mix후 스팀 ▶ Mix</h4>
+            </div>
+            <div class="cold">
+                <h4>블랜더</h4>
+                <hr>
+                <h4>고구마페스트 : 한포(95g)</h4>
+                <h4>설탕시럽 : 1.5P(15g)</h4>
+                <h4>우유 : 200g</h4>
+                <hr>
+                <h4>Mix ①번</h4>
+                <h4>얼음 : 가득</h4>
+            </div>
+        </div>
+        <div data-role="footer" data-theme="e" data-position="fixed">
+            <h1>고구마라떼 레시피</h1>        
+        </div>
+    </div>    
+    <!--리얼초코라떼-------------------------------------------------------------->
+    <div data-role="page" id="1-03">
+        <div data-role="header" data-theme="e">
+            <a href="#main" data-icon="back">Back</a>
+            <h1>리얼초코라떼</h1>
+        </div>
+        <div data-role="content">
+            <div class="hot">
+                <h4>스핌피쳐</h4>
+                <hr>
+                <h4>초코소스 : 30g</h4>
+                <h4>바리스타 카카오 : 5g</h4>
+                <h4>설탕시럽 : 2.5P(25g)</h4>
+                <h4 style="color:red;">Mix후 스팀 ▶ Mix</h4>
+                <hr>
+                <h4>휘핑</h4>
+                <h4>→초코소스(Z드리즐)</h4>
+                <h4>→초콜릿청크(5g)</h4>
+            </div>
+            <div class="cold">
+                <h4>블랜더</h4>
+                <h4>초코소스 : 20g</h4>
+                <h4>바리스타 카카오 : 5g</h4>
+                <h4>설탕시럽 : 2.5P(25g)</h4>
+                <h4 style="color:red;">우유 50g Mix후 데우기 ▶ Mix</h4>
+                <h4>우유 : 200g</h4>
+                <h4>얼음 : 가득</h4>
+                <hr>
+                <h4>휘핑</h4>
+                <h4>→초코소스(Z드리즐)</h4>
+                <h4>→초콜릿청크(5g)</h4>
+            </div>
+        </div>
+        <div data-role="footer" data-theme="e" data-position="fixed">
+            <h1>리얼초코라떼 레시피</h1>        
+        </div>
+    </div>    
+    <!--그린티라떼-------------------------------------------------------------->
+    <div data-role="page" id="1-04">
+        <div data-role="header" data-theme="e">
+            <a href="#main" data-icon="back">Back</a>
+            <h1>그린티라떼</h1>
+        </div>
+        <div data-role="content">
+            <div class="hot">
+                <h4>스핌피쳐</h4>
+                <hr>
+                <h4>우유 : 300g</h4>
+                <h4>녹차라떼 파우더 : 2SP(40g)</h4>
+                <h4>설탕시럽 : 1P(10g)</h4>
+                <h4 style="color:red;">Mix후 스팀 ▶ Mix</h4>
+            </div>
+            <div class="cold">
+                <h4>블랜더</h4>
+                <hr>
+                <h4>온수 : 50g</h4>
+                <h4>녹차라떼 파우더 : 2SP(40g)</h4>
+                <h4>설탕시럽 : 1P(10g)</h4>
+                <h4 style="color:red;">Mix후 데우기</h4>
+                <h4>우유 : 200g</h4>
+                <h4 style="color:red;">Mix후 아이스컵에 옮겨담기</h4>
+                <h4>얼음가득</h4>
+            </div>
+        </div>
+        <div data-role="footer" data-theme="e" data-position="fixed">
+            <h1>그린티라떼 레시피</h1>        
+        </div>
+    </div> 
+    <!--쿠키초코라떼-------------------------------------------------------------->
+    <div data-role="page" id="1-05">
+        <div data-role="header" data-theme="e">
+            <a href="#main" data-icon="back">Back</a>
+            <h1>쿠키초코라떼</h1>
+        </div>
+        <div data-role="content">
+            <div class="hot">
+                <h4>스핌피쳐</h4>
+                <hr>
+                <h4>쿠키엔크림 파우더 : 40g</h4>
+                <h4>설탕시럽 : 3P(30g)</h4>
+                <h4>쿠키크럼 : 1SP(10g)</h4>
+                <h4>우유 : 300g</h4>
+                <h4 style="color:red;">Mix후 ▶ Mix</h4>
+                <hr>
+                <h4>휘핑</h4>
+                <h4>→초코소스(Z드리즐)</h4>
+                <h4>→쿠키크럼(5g)</h4>
+            </div>
+            <div class="cold">
+                <h4>스팀피쳐</h4>
+                <hr>
+                <h4>쿠키엔크림 파우더 : 40g</h4>
+                <h4>설탕시럽 : 3P(30g)</h4>
+                <h4>쿠키크럼 : 1SP(10g)</h4>
+                <h4>우유 : 50g</h4>
+                <hr>
+                <h4 style="color:red;">Mix후 ▶ Mix</h4>
+                <h4>우유 : 200g</h4>
+                <h4>얼음 : 가득</h4>
+            </div>
+        </div>
+        <div data-role="footer" data-theme="e" data-position="fixed">
+            <h1>쿠키초코라떼 레시피</h1>        
+        </div>
+    </div> 
+    <!--민트초코 오레오라떼-------------------------------------------------------------->
+    <div data-role="page" id="1-06">
+        <div data-role="header" data-theme="e">
+            <a href="#main" data-icon="back">Back</a>
+            <h1>민트초코 오레오라떼</h1>
+        </div>
+        <div data-role="content">
+            <div class="hot">
+                <h4>우유 : 300g</h4>
+                <h4>그린민트초코칩파우더 : 2SP(40g)</h4>
+                <h4>설탕시럽 : 1P(10g)</h4>
+                <h4 style="color:red;">Mix후 ▶ Mix</h4>
+                <hr>
+                <h4>휘핑</h4>
+                <h4>→초코소스(Z드리즐)</h4>
+                <h4>→쿠키크럼(5g)</h4>
+                <h4>→오레오쿠키</h4>
+            </div>
+            <div class="cold">
+                <h4>계량컵</h4>
+                <hr>
+                <h4>온수 : 50g</h4>
+                <h4>그린민트초코칩파우더 : 2SP(40g)</h4>
+                <h4>설탕시럽 : 1P(10g)</h4>
+                <h4 style="color:red;">Mix후 데우기</h4>
+                <h4>우유 : 200g</h4>
+                <h4 style="color:red;">Mix후 아이스컵에 옮겨담기</h4>
+                <h4>얼음 : 가득</h4>
+                <hr>
+                <h4>휘핑</h4>
+                <h4>→초코소스(Z드리즐)</h4>
+                <h4>→쿠키크럼(5g)</h4>
+                <h4>→오레오쿠키</h4>
+            </div>
+        </div>
+        <div data-role="footer" data-theme="e" data-position="fixed">
+            <h1>민트초코 오레오라떼 레시피</h1>        
+        </div>
+    </div> 
+    <!--흑당밀크-------------------------------------------------------------->
+    <div data-role="page" id="1-08">
+        <div data-role="header" data-theme="e">
+            <a href="#main" data-icon="back">Back</a>
+            <h1>흑당밀크</h1>
+        </div>
+        <div data-role="content">
+            <div class="cold">
+                <h4>흑당소스 : 50g</h4>
+                <h4 style="color:red;">컵 돌려서 소스 묻히기</h4>
+                <h4>우유 : 250g</h4>
+                <h4>얼음 : 가득</h4>
+            </div>
+        </div>
+        <div data-role="footer" data-theme="e" data-position="fixed">
+            <h1>흑당밀크 레시피</h1>        
+        </div>
+    </div>
+    <!--밀크티-------------------------------------------------------------->
+    <div data-role="page" id="1-09">
+        <div data-role="header" data-theme="e">
+            <a href="#main" data-icon="back">Back</a>
+            <h1>밀크티</h1>
+        </div>
+        <div data-role="content">
+            <div class="hot">
+                <h4>종이컵</h4>
+                <hr>
+                <h4>얼레이티백 : 1개(1.5g)</h4>
+                <h4>뜨거운물 : 50g</h4>
+                <h4 style="color:red;">3분 우리기</h4>
+                <h4>밀크티파우더: 25g</h4>
+                <h4>바닐라시럽 : 1P(10g)</h4>
+                <h4>스팀우유 : 250g</h4>
+                <h4 style="color: red;">Mix</h4>
+            </div>
+            <div class="cold">
+                <h4>계량컵</h4>
+                <hr>
+                <h4>얼그레이티백 : 1개(1.5g)</h4>
+                <h4>뜨거운물 : 50g</h4>
+                <h4 style="color: red;">3분 우리기</h4>
+                <h4>밀크티 파우더 : 25g</h4>
+                <h4>바닐라시럽 : 1P(10g)</h4>
+                <hr>
+                <h4>PT컵</h4>
+                <h4>우유 : 200g</h4>
+                <h4 style="color: red;">재료 Mix후 아이스컵에 옮겨담기</h4>
+                <h4>얼음 : 가득</h4>
+            </div>
+        </div>
+        <div data-role="footer" data-theme="e" data-position="fixed">
+            <h1>밀크티 레시피</h1>        
+        </div>
+    </div>                 
+</body>
+</html>
